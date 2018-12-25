@@ -1,0 +1,1798 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1545748817966,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "511fd1c8-742c-4787-85d2-21995a209ea4",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Oracle Database Details",
+      "namePath": "Custom Dashboards",
+      "rank": 432,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "a2e644d2-f79c-47f0-b059-c8d40b45bddc"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "ae604dae-6355-414c-9314-04bce8b1682a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "1046f7a1-8920-4a2f-952d-accf1164bbe3"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "3f67ca88-7c19-4b98-8dcd-ebc71e0263d0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "ea659595-d30c-4722-a310-3a03f7b861c5"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "14133d8a-0d97-4a48-97b8-88b504068704"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "774b5f88-c517-4b2b-ac74-e2d7e4b307eb"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "e49b3366-7457-4514-91a2-2eedb7f76866"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "7a74eac8-146c-4797-aa94-af969214b478"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "e3c3eb16-9d79-486d-ad24-3f1cf047b6a6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "64837cec-3548-4eb0-ae49-1b106d3cb37e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "widgetIdReceiver": "5de6d065-298e-40f0-9ffd-ef5fefe0bd40"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Archive Log Mode",
+                     "metricKey": "general|LOG_MODE",
+                     "metricName": "General|Archive Log Mode",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Controlfile Count",
+                     "metricKey": "general|CONTROLFILE_COUNT",
+                     "metricName": "General|Controlfile Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Fast Recovery Area Configured",
+                     "metricKey": "general|FST_RECOV_AREA_CNFG",
+                     "metricName": "General|Fast Recovery Area Configured",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Flashback Enabled",
+                     "metricKey": "general|FLASHBACK_ON",
+                     "metricName": "General|Flashback Enabled",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "ESXi Host",
+                     "metricKey": "general|HOST_LIST",
+                     "metricName": "General|Host List",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "OMF Configured",
+                     "metricKey": "general|OMF_CONFIGURED",
+                     "metricName": "General|OMF Configured",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "DB Type",
+                     "metricKey": "general|BANNER",
+                     "metricName": "General|Oracle DB Type",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Oracle Databases"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "32e4ab12-9910-4775-988f-3d68787d58fe",
+            "states": [{
+               "key": "permResGrid_widget_511fd1c8-742c-4787-85d2-21995a209ea4_32e4ab12-9910-4775-988f-3d68787d58fe",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A76%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A130%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A146%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A129%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A230%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A155%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A154%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Oracle Databases",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel51894-1",
+                        "isStringMetric": false,
+                        "metricKey": "activity|AVG_DATAFILE_READ",
+                        "metricName": "Activity|Average Datafile Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel51894-2",
+                        "isStringMetric": false,
+                        "metricKey": "activity|RMAN_BACKUP_LAST",
+                        "metricName": "Activity|Days Since Last RMAN Backup",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel51894-3",
+                        "isStringMetric": false,
+                        "metricKey": "activity|PROCESSES_USAGE",
+                        "metricName": "Activity|Processes Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel51894-4",
+                        "isStringMetric": false,
+                        "metricKey": "activity|SESSIONS_USAGE",
+                        "metricName": "Activity|Sessions Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Activity Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 96,
+            "id": "a2e644d2-f79c-47f0-b059-c8d40b45bddc",
+            "title": "Activity Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3690-1",
+                        "isStringMetric": false,
+                        "metricKey": "general|MULTIP_ARCH_LOG_FILES",
+                        "metricName": "General|Archive Log Files Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3690-2",
+                        "isStringMetric": false,
+                        "metricKey": "general|MULTIP_ONLINE_LOG_FILES",
+                        "metricName": "General|Online Log Files Average Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7742-1",
+                        "isStringMetric": false,
+                        "metricKey": "undo|EXPIRED",
+                        "metricName": "Undo|Expired Undo Extents Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7742-2",
+                        "isStringMetric": false,
+                        "metricKey": "undo|UNDO_TBS_SIZE",
+                        "metricName": "Undo|Undo Tablespace Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7742-3",
+                        "isStringMetric": false,
+                        "metricKey": "undo|UNEXPIRED",
+                        "metricName": "Undo|Unexpired Undo Extents Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "General Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 7
+            },
+            "height": 96,
+            "id": "ae604dae-6355-414c-9314-04bce8b1682a",
+            "title": "General Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-1",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|ARCHIVE_LOGGING_ENABLED_SCORE",
+                        "metricName": "Health And Configuration|Archive Logging Enabled Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-2",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|AVG_CNFG_HLTH_SCORE",
+                        "metricName": "Health And Configuration|Average Configuration And Health Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-3",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|AVG_DATAFILE_READ_SCORE",
+                        "metricName": "Health And Configuration|Average Datafile Read Time _ 1ms Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-4",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|FST_RECOV_AREA_CNFG_SCORE",
+                        "metricName": "Health And Configuration|Fast Recovery Area Configured Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-5",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|FLASHBACK_ENABLED_SCORE",
+                        "metricName": "Health And Configuration|Flashback Enabled Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-6",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|MULTIP_ARCH_LOG_FILES_SCORE",
+                        "metricName": "Health And Configuration|Multiplexed Archive Log Files Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-7",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|MULTIP_CONTROLFILE_SCORE",
+                        "metricName": "Health And Configuration|Multiplexed Controlfile Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-8",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|MULTIP_ONLINE_LOG_FILES_SCORE",
+                        "metricName": "Health And Configuration|Multiplexed Online Log Files Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-9",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|OMF_CONFIGURED_SCORE",
+                        "metricName": "Health And Configuration|OMF Configured Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-10",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|PROCESSES_LIMIT_SCORE",
+                        "metricName": "Health And Configuration|Processes Limit Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-11",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|RMAN_BACKUP_LAST_24HRS_SCORE",
+                        "metricName": "Health And Configuration|RMAN Backup In Last 24 Hours Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10266-12",
+                        "isStringMetric": false,
+                        "metricKey": "health_and_configuration_scores|SESSIONS_LIMIT_SCORE",
+                        "metricName": "Health And Configuration|Sessions Limit Score",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Health and Configuration Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 9
+            },
+            "height": 153,
+            "id": "1046f7a1-8920-4a2f-952d-accf1164bbe3",
+            "title": "Health and Configuration Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Object Relationship (for selected Database)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 324,
+            "id": "3f67ca88-7c19-4b98-8dcd-ebc71e0263d0",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_511fd1c8-742c-4787-85d2-21995a209ea4_3f67ca88-7c19-4b98-8dcd-ebc71e0263d0",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permResourceRelationship_widget_511fd1c8-742c-4787-85d2-21995a209ea4_3f67ca88-7c19-4b98-8dcd-ebc71e0263d0",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Object Relationship (for selected Database)",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7740-1",
+                        "isStringMetric": false,
+                        "label": "Control File 1",
+                        "link": "",
+                        "metricKey": "control_file:/u01/oracle/oradata/DB12C/control01.ctl|general|CONTROL_FILE_SIZE",
+                        "metricName": "Control File:/u01/oracle/oradata/DB12C/control01.ctl|General|Control File Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7740-2",
+                        "isStringMetric": false,
+                        "label": "Control File 2",
+                        "link": "",
+                        "metricKey": "control_file:/u01/oracle/oradata/DB12C/control02.ctl|general|CONTROL_FILE_SIZE",
+                        "metricName": "Control File:/u01/oracle/oradata/DB12C/control02.ctl|General|Control File Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Control File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 4,
+               "x": 9,
+               "y": 3
+            },
+            "height": 96,
+            "id": "ea659595-d30c-4722-a310-3a03f7b861c5",
+            "title": "Control File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-1",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|AVG_IO_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Average I/O Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-2",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|AVG_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Average Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-3",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|AVG_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Average Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-4",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|MAX_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Max Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-5",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|MAX_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Max Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-6",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|PHYSICAL_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Physical Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-7",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|PHYSICAL_BLOCKS_WRITTEN",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Physical Blocks Written",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-8",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|PHYSICAL_READS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Physical Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-9",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|PHYSICAL_WRITES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Physical Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-10",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-11",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|disk_io|SINGLE_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Disk I/O|Single Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-12",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|general|BYTES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|general|Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4863-13",
+                        "isStringMetric": true,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/sysaux01.dbf|status|STATUS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/sysaux01.dbf|Status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Sysaux Database File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 14
+            },
+            "height": 267,
+            "id": "14133d8a-0d97-4a48-97b8-88b504068704",
+            "title": "Sysaux Database File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-1",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|AVG_IO_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Average I/O Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-2",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|AVG_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Average Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-3",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|AVG_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Average Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-4",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|MAX_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Max Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-5",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|MAX_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Max Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-6",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|PHYSICAL_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Physical Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-7",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|PHYSICAL_BLOCKS_WRITTEN",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Physical Blocks Written",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-8",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|PHYSICAL_READS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Physical Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-9",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|PHYSICAL_WRITES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Physical Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-10",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-11",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|SINGLE_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Single Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-12",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|disk_io|WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Disk I/O|Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-13",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|general|BYTES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|general|Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6695-14",
+                        "isStringMetric": true,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/system01.dbf|status|STATUS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/system01.dbf|Status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "System Database File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 19
+            },
+            "height": 267,
+            "id": "774b5f88-c517-4b2b-ac74-e2d7e4b307eb",
+            "title": "System Database File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-1",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|AVG_IO_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Average I/O Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-2",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|AVG_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Average Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-3",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|AVG_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Average Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-4",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|MAX_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Max Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-5",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|MAX_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Max Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-6",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|PHYSICAL_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Physical Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-7",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|PHYSICAL_BLOCKS_WRITTEN",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Physical Blocks Written",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-8",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|PHYSICAL_READS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Physical Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-9",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|PHYSICAL_WRITES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Physical Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-10",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-11",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|SINGLE_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Single Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3067-12",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/temp01.dbf|disk_io|WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/temp01.dbf|Disk I/O|Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Temp Database File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 14
+            },
+            "height": 267,
+            "id": "e49b3366-7457-4514-91a2-2eedb7f76866",
+            "title": "Temp Database File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-1",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|AVG_IO_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Average I/O Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-2",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|AVG_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Average Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-3",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|AVG_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Average Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-4",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|MAX_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Max Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-5",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|MAX_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Max Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-6",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|PHYSICAL_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Physical Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-7",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|PHYSICAL_BLOCKS_WRITTEN",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Physical Blocks Written",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-8",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|PHYSICAL_READS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Physical Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-9",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|PHYSICAL_WRITES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Physical Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-10",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-11",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|SINGLE_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Single Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-12",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|disk_io|WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Disk I/O|Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-13",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|general|BYTES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|general|Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4565-14",
+                        "isStringMetric": true,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/undotbs01.dbf|status|STATUS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/undotbs01.dbf|Status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Undo Tablespace Database File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 19
+            },
+            "height": 267,
+            "id": "7a74eac8-146c-4797-aa94-af969214b478",
+            "title": "Undo Tablespace Database File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 7,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-1",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|AVG_IO_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Average I/O Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-2",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|AVG_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Average Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-3",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|AVG_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Average Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-4",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|MAX_READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Max Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-5",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|MAX_WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Max Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-6",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|PHYSICAL_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Physical Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-7",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|PHYSICAL_BLOCKS_WRITTEN",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Physical Blocks Written",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-8",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|PHYSICAL_READS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Physical Reads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-9",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|PHYSICAL_WRITES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Physical Writes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-10",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|READ_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Read Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-11",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|SINGLE_BLOCKS_READ",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Single Blocks Read",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-12",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|disk_io|WRITE_TIME",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Disk I/O|Write Time",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-13",
+                        "isStringMetric": false,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|general|BYTES",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|general|Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6523-14",
+                        "isStringMetric": true,
+                        "metricKey": "database_file:/u01/oracle/oradata/DB12C/users01.dbf|status|STATUS",
+                        "metricName": "Database File:/u01/oracle/oradata/DB12C/users01.dbf|Status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Users Database File Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 12,
+               "x": 1,
+               "y": 24
+            },
+            "height": 267,
+            "id": "e3c3eb16-9d79-486d-ad24-3f1cf047b6a6",
+            "title": "Users Database File Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-1",
+                        "isStringMetric": false,
+                        "label": "Redo Log 1 Size",
+                        "link": "",
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo01.log|general|BYTES",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo01.log|general|Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-2",
+                        "isStringMetric": true,
+                        "label": "Redo Log 1 Status",
+                        "link": "",
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo01.log|status|STATUS",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo01.log|status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": ""
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-3",
+                        "isStringMetric": false,
+                        "label": "Redo Log 2 Size",
+                        "link": "",
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo02.log|general|BYTES",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo02.log|general|Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-4",
+                        "isStringMetric": true,
+                        "label": "Redo Log 2 Status",
+                        "link": "",
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo02.log|status|STATUS",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo02.log|status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": ""
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-5",
+                        "isStringMetric": false,
+                        "label": "Redo Log 3 Size",
+                        "link": "",
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo03.log|general|BYTES",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo03.log|general|Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20619-6",
+                        "isStringMetric": true,
+                        "metricKey": "redo_log_file:/u01/oracle/oradata/DB12C/redo03.log|status|STATUS",
+                        "metricName": "Redo Log File:/u01/oracle/oradata/DB12C/redo03.log|status|Status",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Redo Log Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 12
+            },
+            "height": 96,
+            "id": "64837cec-3548-4eb0-ae49-1b106d3cb37e",
+            "title": "Redo Log Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5503-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "undo|EXPIRED",
+                        "metricName": "Undo|Expired Undo Extents Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5503-2",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "undo|UNDO_TBS_SIZE",
+                        "metricName": "Undo|Undo Tablespace Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5503-3",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "undo|UNEXPIRED",
+                        "metricName": "Undo|Unexpired Undo Extents Size",
+                        "metricUnitId": "megabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Oracle DB Database",
+                        "unit": "MB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Undo Log Scoreboard (for selected Database)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 4,
+               "x": 9,
+               "y": 5
+            },
+            "height": 96,
+            "id": "5de6d065-298e-40f0-9ffd-ef5fefe0bd40",
+            "title": "Undo Log Scoreboard (for selected Database)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "OracleDBAdapter",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "database"
+   }]},
+   "uuid": "e69c8f54-4b77-42b7-b17f-314a84986c0e"
+}
